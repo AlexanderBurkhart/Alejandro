@@ -40,7 +40,7 @@ Hardware to software connection code based off of [MIT's racecar](https://github
 
 ![](images/ObstacleGIF.gif)
 
-## Next Steps
+## Roadmap
 
 * Implement Monte-Carlo localization for more accurate localization
 * Implement A* pathfinding for better navigation
