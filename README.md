@@ -37,4 +37,4 @@ Hardware to software connection code based off of [MIT's racecar](https://github
 
 * Detect Obstacles with LIDAR sensor: Deacelerates to avoid collision with obstacles in a front 180 view. Comes to a stop if need be and can safely follow other vehicles at slower speeds.
 
-![](images/ObstacleGIF.jpg)
+![](images/ObstacleGIF.gif)
