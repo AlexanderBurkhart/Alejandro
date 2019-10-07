@@ -33,4 +33,6 @@ Hardware to software connection code based off of [MIT's racecar](https://github
 
 * Traffic Sign Detection and Classifier: Uses two neural networks, one to detect and the other to classify. UNet architecutre is used for the detector and a custom CNN is used for the classifier. If altered, code can also be used to identify traffic signs, pedestrians, and other.
 
+![](images/Sign.jpg)
+
 * Detect Obstacles with LIDAR sensor: Deacelerates to avoid collision with obstacles in a front 180 view. Comes to a stop if need be and can safely follow other vehicles at slower speeds.
