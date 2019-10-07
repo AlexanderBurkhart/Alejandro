@@ -1,8 +1,8 @@
 # Alejandro the Self-Driving RC Car
 
-## Overview
-
 ![](images/Alejandro.jpg)
+
+## Overview
 
 Appearning at the Virginia State Science and Engineering Fair and nominated for the Office of Naval Research Naval Science Award and Yale Science & Engineering Association Award, Alejandro is the Self-Driving RC Car equipped with a low-computing-power, high-performance artifical intelligence that has the ability to drive in real-world vehicular environments. 
 
