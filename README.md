@@ -18,3 +18,15 @@ Big thank you to all my friends and family that donated money to help me puruse 
 * SparkFun 9DoF IMU
 * Enertion FOCBOX VESC
 * Zed Stereo Camera
+
+Hardware to software connection code based off of [MIT's racecar](https://github.com/mit-racecar)
+
+## Capabilites
+
+* Localization using Extended Kalman Filter (EKF): combined sensor measurements into an EKF to accuratly find the position of the robot in any place.
+
+* PID Controller with Path Planning: Uses PID controller to manuever the robot to set waypoints.
+
+* Traffic Sign Detection and Classifier: Uses two neural networks, one to detect and the other to classify. UNet architecutre is used for the detector and a custom CNN is used for the classifier. If altered, code can also be used to identify traffic signs, pedestrians, and other.
+
+* Detect Obstacles with LIDAR sensor: Deacelerates to avoid collision with obstacles in a front 180 view. Comes to a stop if need be and can safely follow other vehicles at slower speeds.
