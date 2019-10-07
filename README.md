@@ -23,19 +23,26 @@ Hardware to software connection code based off of [MIT's racecar](https://github
 
 ## Capabilites
 
-* Localization using Extended Kalman Filter (EKF): combined sensor measurements into an EKF to accuratly find the position of the robot in any place.
+* [Localization using Extended Kalman Filter (EKF)](https://github.com/AlexanderBurkhart/Alejandro/tree/master/src/racecar/alejandro_localization): combined sensor measurements into an EKF to accuratly find the position of the robot in any place.
 
 ![](images/EKF.jpg)
 
-* PID Controller with Path Planning: Uses PID controller to manuever the robot to set waypoints.
+* [PID Controller](https://github.com/AlexanderBurkhart/Alejandro/blob/master/src/racecar/autonomous/src/pid_controller.py) with Path Planning: Uses PID controller to manuever the robot to set waypoints.
 
 ![](images/PIDControl.jpg)
 ![](images/Drive.gif)
 
-* Traffic Sign Detection and Classifier: Uses two neural networks, one to detect and the other to classify. UNet architecutre is used for the detector and a custom CNN is used for the classifier. If altered, code can also be used to identify traffic signs, pedestrians, and other.
+* [Traffic Sign Detection and Classifier](https://github.com/AlexanderBurkhart/Alejandro/blob/master/src/racecar/autonomous/src/sign_finder.py): Uses two neural networks, one to detect and the other to classify. UNet architecutre is used for the detector and a custom CNN is used for the classifier. If altered, code can also be used to identify traffic signs, pedestrians, and other.
 
 ![](images/Sign.jpg)
 
 * Detect Obstacles with LIDAR sensor: Deacelerates to avoid collision with obstacles in a front 180 view. Comes to a stop if need be and can safely follow other vehicles at slower speeds.
 
 ![](images/ObstacleGIF.gif)
+
+## Next Steps
+
+* Implement Monte-Carlo localization for more accurate localization
+* Implement A* pathfinding for better navigation
+* Use semantic segmentation for more effiecient and diverse detection of obstacles
+* Use GPS to autonomitcally set waypoints based on the destinatation and current position
