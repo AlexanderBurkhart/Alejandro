@@ -30,7 +30,7 @@ Hardware to software connection code based off of [MIT's racecar](https://github
 * PID Controller with Path Planning: Uses PID controller to manuever the robot to set waypoints.
 
 ![](images/PIDControl.jpg)
-![](images/DriveGIF.gif)
+![](images/Drive.gif)
 
 * Traffic Sign Detection and Classifier: Uses two neural networks, one to detect and the other to classify. UNet architecutre is used for the detector and a custom CNN is used for the classifier. If altered, code can also be used to identify traffic signs, pedestrians, and other.
 
