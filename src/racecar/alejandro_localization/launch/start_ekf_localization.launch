@@ -1,0 +1,7 @@
+<launch>
+	
+	<node pkg="tf" type="static_transform_publisher" name="imu_to_robot_base" args="0 0 0 0 0 0 base_link map 100" />
+	<node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization_node">
+		<rosparam command="load" file="$(find alejandro_localization)/config/ekf_localization.yaml" />
+	</node>
+</launch>
