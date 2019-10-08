@@ -23,7 +23,7 @@ Hardware to software connection code based off of [MIT's racecar](https://github
 
 ## Capabilites
 
-* [Localization using Extended Kalman Filter (EKF)](https://github.com/AlexanderBurkhart/Alejandro/tree/master/src/racecar/alejandro_localization): combined sensor measurements into an EKF to accurately find the position of the robot in any place.
+* [Localization using Extended Kalman Filter (EKF)](https://github.com/AlexanderBurkhart/Alejandro/tree/master/src/racecar/alejandro_localization): combined sensor measurements into an EKF to accurately find the position of the robot at any place.
 
 ![](images/EKF.jpg)
 
