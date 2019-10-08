@@ -3,6 +3,7 @@
 ## Overview
 
 Appearing at the Virginia State Science and Engineering Fair and nominated for the Office of Naval Research Naval Science Award and Yale Science & Engineering Association Award, Alejandro is the Self-Driving RC Car equipped with a low-computing-power, high-performance artificial intelligence that can drive in real-world vehicular environments.
+
 The purpose of this project is to show that self-driving vehicles can be made at a low-cost and still be able to mimic a competent driver. The main goal of this project is to provide a modular artificial intelligence for self-driving vehicle systems, so those self-driving vehicles can easily be implemented and used in our society to combat the high fatalities from car accidents due to human error.
 
 Big thank you to all my friends and family that donated money to help me pursue this ambitious project!
