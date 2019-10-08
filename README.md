@@ -27,7 +27,7 @@ Hardware to software connection code based off of [MIT's racecar](https://github
 
 ![](images/EKF.jpg)
 
-* [PID Controller](https://github.com/AlexanderBurkhart/Alejandro/blob/master/src/racecar/autonomous/src/pid_controller.py) with Path Planning: Uses PID controller to maneuver the robot to set waypoints.
+* [PID Controller](https://github.com/AlexanderBurkhart/Alejandro/blob/master/src/racecar/autonomous/src/pid_controller.py) with Path Planning: Uses PID controller to maneuver the robot to determined waypoints.
 
 ![](images/PIDControl.jpg)
 ![](images/Drive.gif)
