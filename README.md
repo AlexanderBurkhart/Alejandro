@@ -46,4 +46,4 @@ Hardware to software connection code based off of [MIT's racecar](https://github
 * Implement A* pathfinding for better navigation
 * Use semantic segmentation for more efficient and diverse detection of obstacles
 * Use GPS to automatically set waypoints and routes based on the destination and current position
-* Complete specific driving detections (e.g lanes, vehicles)
+* Implement existing code to detect boundaries (e.g lanes, stop lines)
